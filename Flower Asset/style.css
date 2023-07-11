@@ -1,0 +1,262 @@
+.header-section {
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+
+}
+
+
+.header-content {
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 100px;
+    /* padding-top: 100px;
+    padding-left: 240px; */
+}
+
+.header-content h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-content button {
+    display: inline-block;
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #E55473;
+    margin-bottom: 167px;
+    padding: 2px 5px;
+}
+
+.header-image {
+    width: 635px;
+    height: 800px;    
+    padding-top:200px;
+}
+
+.header-image img {
+    padding-bottom: 0;
+}
+
+.featured-top {
+    width: 594px;
+    text-align: center;
+    margin:20px auto;
+}
+
+.featured-top h3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.featured-top p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.featured-image {
+    width: 1080px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.flower-image {
+    width: 310px;
+    height: 428px;
+    overflow: hidden;
+    margin-right: 20px;
+    border: none;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding: 30px 20px 0;
+
+}
+
+.flower-image img {
+padding-top: 50px;
+    width: 100%;
+}
+
+.pink {
+    background-color: #e0a5c8;
+}
+
+.gray {
+    background-color: #b6b3b5;
+}
+
+.violet {
+    background-color: #7a4c88;
+}
+
+.product {
+
+    width: 1080px;
+    margin: 100px auto;
+    background-color: #b6b3b5;
+
+
+}
+
+.product-content {
+    width: 710px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-content div {
+    margin: 20px;
+}
+
+.product-content img {
+    width: 50px;
+}
+
+.sale-up {
+    text-align: center;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.saleup-content {
+    width: 620px;
+    margin-top: 180px;
+    padding-left: 100px;
+}
+
+.saleup-image {
+    width: 318px;
+    margin: 10px;
+    padding-right: 100px;
+}
+
+.saleup-content h3 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* instragram section css */
+.instragram-top {
+    width: 594px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.instragram-top h3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.instragram-top p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instragram-imagesection {
+    width: 1080px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.instragram-image {
+    width: 300px;
+    margin: 10px;
+}
+
+.instragram-image img {
+    width: 100%;
+    
+    
+}
+.subscribe-section{
+    background-image: url("/Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    overflow: hidden;
+    width: 1080px;
+    height:400px;
+    margin: 0 auto;
+    
+}
+.button-section{
+    margin-top:250px ;
+    margin-left:250px ;
+}
+.emailinput{
+padding: 10px 40px;
+}
+
+.button-subscribe{
+    padding: 10px 30px;
+    background-color: #E55473;
+    color:#fff;
+}
+.footer{
+    background-color: #272727;
+    color:#fff;
+    margin-top: 100px;
+}
+.footer-top{
+    width: 450px;
+    text-align:center;
+    color: #fff;
+    padding: 100px;
+    margin: 0 auto;
+}
+.footer-flower{
+    color: #E55473;
+}
+.footer-top h3{
+    font-size: 40px;
+    margin-top: 0;
+}
